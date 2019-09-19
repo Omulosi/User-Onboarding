@@ -5,13 +5,14 @@
 }
 
 #root {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2em 3em;
 }
 
 .onboard-form {
   width: 50%;
+  margin: 0 auto;
 }
 
 .onboard-form p {
@@ -49,6 +50,8 @@ input[type="checkbox"] {
 
 label > span {
   flex: 1;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 button {
@@ -59,4 +62,12 @@ button {
   padding: 0.8em 1.5em;
   width: 100%;
   border-radius: 4px
+}
+
+.user-box {
+  font-style: italic;
+  padding: 1em;
+  margin-top: 0.6em;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  text-align: center;
 }
