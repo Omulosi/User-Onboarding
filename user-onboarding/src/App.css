@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em 3em;
+}
+
+.onboard-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.onboard-form p {
+  color: red;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+form {
+  display: block;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+form > div + div {
+  margin-top: 1em;
+}
+
+label {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  flex: 1;
+}
+
+label > span {
+  flex: 1;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 2em;
+  border: 1px solid #444;
+  color: white;
+  background: #444;
+  padding: 0.8em 1.5em;
+  width: 100%;
+  border-radius: 4px
+}
+
+.user-box {
+  font-style: italic;
+  padding: 1em;
+  margin-top: 0.6em;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  text-align: center;
+}
